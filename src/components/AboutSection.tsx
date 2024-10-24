@@ -48,6 +48,7 @@ const TAB_DATA = [
 function AboutSection() {
 
     const [tab, setTab] = useState("skills")
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isPending, startTransition] = useTransition()
 
     const handleTabChange = (id: any) => {
