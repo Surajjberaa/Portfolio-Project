@@ -9,7 +9,7 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul>
+            <ul className='list-disc pl-2'>
                 <li>Node JS</li>
                 <li>Express</li>
                 <li>PostgreSQL</li>
@@ -23,7 +23,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul>
+            <ul className='list-disc pl-2'>
                 <li>FreeCodeCamp</li>
                 <li>100xDevs</li>
                 <li>University of Calcutta</li>
@@ -34,8 +34,7 @@ const TAB_DATA = [
         title: "Certifications",
         id: "certifications",
         content: (
-            <ul>
-                <li></li>
+            <ul className='list-disc pl-2'>
                 <li>Full Stack Web Development by 100xDevs</li>
                 <li>Scientific Computing with Python by FreeCodeCamp</li>
                 <li>Data Analysis with Python by FreeCodeCamp</li>
