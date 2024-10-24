@@ -40,7 +40,7 @@ function HeroSection() {
                 </div>
             </div>
             <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
-                <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  flex relative'>
+                <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  flex relative shadow-[rgba(0,0,12,0.5)_5px_5px_4px_0px]'>
                   <Image 
                   priority={true}
                   src="/images/boy-4.png" 
