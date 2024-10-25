@@ -8,7 +8,7 @@ function ContactSection() {
 
         <div id='left' className=' flex  items-center flex-col   grid-rows-2'>
             <h3 className='text-4xl font-semibold mt-10 mb-2'>Get in touch</h3>
-            <p className='mb-10 px-60 text-[#ADB7BE] text-center'>I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <p className='mb-10 md:px-60 text-[#ADB7BE] text-center'>I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
             <div className='flex gap-3'>
                 <div id='email' >
                 <a href='https://mail.google.com/mail/?view=cm&fs=1&to=berasuraj08@gmail.com&su=Hello%20Suraj&body=I%20would%20like%20to%20connect%20with%20you' target='blank' className="[&>svg]:h-5 [&>svg]:w-5">
