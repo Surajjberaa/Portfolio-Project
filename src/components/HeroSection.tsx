@@ -18,8 +18,6 @@ function HeroSection() {
                     <TypeAnimation
                       sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        'Bunny',
-                        1000, 
                         'Suraj',
                         1000,
                         'Web Developer',
