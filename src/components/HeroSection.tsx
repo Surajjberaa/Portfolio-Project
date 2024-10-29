@@ -9,7 +9,18 @@ function HeroSection() {
   return (
     <section>
         <div className='grid grid-cols-1 sm:grid-cols-12 mt-20'>
-            <div className='col-span-7 place-self-center text-center sm:text-left'>
+            <div className='block sm:hidden place-self-center mb-8 lg:mt-0'>
+                <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  flex relative shadow-[rgba(0,0,12,0.5)_5px_5px_4px_0px]'>
+                  <Image 
+                  priority={true}
+                  src="/images/boy-4.png" 
+                  alt='Hero Image' 
+                  width={300} 
+                  height={300} 
+                  className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2  '/>
+                </div>
+            </div>
+            <div className='col-span-7  place-self-center text-center sm:text-left'>
                 <h1 className='mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold '>
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-slate-300'>
                   Hello, I&apos;m {""}
@@ -37,7 +48,7 @@ function HeroSection() {
                   <button className='px-6 py-3 m-1 rounded-full bg-transparent border-2 border-white hover:bg-[#181818] hover:text-white font-semibold w-full sm:w-fit'>Download CV</button>
                 </div>
             </div>
-            <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
+            <div className='col-span-5 sm:block hidden place-self-center mt-4 lg:mt-0'>
                 <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  flex relative shadow-[rgba(0,0,12,0.5)_5px_5px_4px_0px]'>
                   <Image 
                   priority={true}
