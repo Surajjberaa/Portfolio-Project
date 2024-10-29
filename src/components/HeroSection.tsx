@@ -31,7 +31,7 @@ function HeroSection() {
                       repeat={Infinity}
                     />
                     </h1>
-                <p className='text-xl lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias adipisci natus laborum corrupti sed sit, voluptate quae eos illo molestias.</p>
+                <p className='text-xl lg:text-xl'>Passionate web developer crafting seamless digital experiences. Committed to innovation and growth while embracing challenges in the tech world.</p>
                 <div className='mt-4'>
                   <button className='px-6 py-3 m-2 rounded-full font-semibold w-full sm:w-fit bg-gradient-to-br from-blue-500 to-black hover:bg-gradient-to-br hover:from-blue-800 text-white'>Hire Me</button>
                   <button className='px-6 py-3 m-1 rounded-full bg-transparent border-2 border-white hover:bg-[#181818] hover:text-white font-semibold w-full sm:w-fit'>Download CV</button>
