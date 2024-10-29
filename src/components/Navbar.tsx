@@ -35,11 +35,11 @@ function Navbar() {
             <div className='block md:hidden mobile-menu'>
                 {
                     !navBarOpen ? (
-                        <button onClick={()=> setNavBarOpen(true)} className='flex text-slate-200 items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white '>
+                        <button onClick={()=> setNavBarOpen(true)} className='flex text-slate-200 items-center px-3 py-2 hover:text-white hover:border-white '>
                             <Bars3Icon className='h-5 w-5'/>
                         </button>
                     ) : (
-                        <button onClick={()=> setNavBarOpen(false)} className='flex text-slate-200 items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white '>
+                        <button onClick={()=> setNavBarOpen(false)} className='flex text-slate-200 items-center px-3 py-2 hover:text-white hover:border-white '>
                             <XMarkIcon className='h-5 w-5'/>
                         </button>
                     )

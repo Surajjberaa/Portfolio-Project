@@ -9,12 +9,11 @@ export default function Home() {
   return (
     <div className="bg-[#121212] flex min-h-screen ">
       <div className="container flex-col mx-auto py-4 px-12">
-        <Navbar/>
         <HeroSection/>
         <AboutSection/>
         <ProjectSection/>
         <ContactSection/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </div>
   );
