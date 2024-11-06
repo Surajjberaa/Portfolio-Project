@@ -5,7 +5,7 @@ const projectsData = [
     {
         id: 1,
         title: "Medium Blogging Website",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim officiis, dignissimos molestiae tenetur ducimus!",
+        description: "A clean and user-friendly blogging platform inspired by Medium, designed for seamless reading and writing experiences. Built with responsive design and optimized for content creators.",
         image: "/images/medium.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Surajjberaa/Medium-Blogging-app",
@@ -14,7 +14,7 @@ const projectsData = [
     {
         id: 2,
         title: "Music School Website",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim officiis, dignissimos molestiae tenetur ducimus!",
+        description: "Music school website with smooth animations, showcasing courses, instructors, and programs in a user-friendly design.",
         image: "/images/Music.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Surajjberaa/Music-school",
@@ -23,7 +23,7 @@ const projectsData = [
     {
         id: 3,
         title: "Portfolio Website",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim officiis, dignissimos molestiae tenetur ducimus!",
+        description: "A personal portfolio showcasing my journey in web development, featuring projects, skills, and ongoing learning. Built to highlight my passion for technology and hands-on experience.",
         image: "/images/portfolio.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Surajjberaa/Portfolio-Project",
@@ -32,7 +32,7 @@ const projectsData = [
     {
         id: 4,
         title: "Two Good Co Website",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim officiis, dignissimos molestiae tenetur ducimus!",
+        description: "An elegant e-commerce site with smooth animations, showcasing sustainable products with a clean layout and intuitive navigation.",
         image: "/images/Two-good.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Surajjberaa/Two-Good-Co",
