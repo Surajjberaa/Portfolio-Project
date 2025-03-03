@@ -3,7 +3,7 @@ import { AtSymbolIcon } from '@heroicons/react/16/solid'
 
 function ContactSection() {
   return (
-    <section>
+    <section id='contact'>
         <div className='h-[400px]  grid '>
 
         <div id='left' className=' flex  items-center flex-col   grid-rows-2'>

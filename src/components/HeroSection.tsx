@@ -33,8 +33,6 @@ function HeroSection() {
                         1000,
                         'Web Developer',
                         1000,
-                        'IT Specialist',
-                        1000
                       ]}
                       wrapper="span"
                       speed={30}

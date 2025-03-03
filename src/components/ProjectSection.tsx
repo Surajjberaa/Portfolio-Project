@@ -4,12 +4,12 @@ import ProjectCard from './ProjectCard'
 const projectsData = [
     {
         id: 1,
-        title: "Medium Blogging Website",
-        description: "A clean and user-friendly blogging platform inspired by Medium, designed for seamless reading and writing experiences. Built with responsive design and optimized for content creators.",
-        image: "/images/medium.png",
+        title: "E-Commerce Website",
+        description: "An elegant e-commerce site with smooth animations, showcasing sustainable products with a clean layout and intuitive navigation with paypal payment integration.",
+        image: "/images/Ecom.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/Surajjberaa/Medium-Blogging-app",
-        previewUrl: "https://medium-blogging-app.vercel.app/blogs"
+        gitUrl: "https://github.com/Surajjberaa/E-Commerce",
+        previewUrl: "https://e-commerce-xi-pearl.vercel.app/"
     },
     {
         id: 2,
@@ -38,11 +38,30 @@ const projectsData = [
         gitUrl: "https://github.com/Surajjberaa/Two-Good-Co",
         previewUrl: "https://surajjberaa.github.io/Two-Good-Co/"
     },
+    {
+        id: 5,
+        title: "Humane",
+        description: "Humane's CosmOS is an AI-powered OS with intelligent agents, enabling seamless, context-aware interactions through voice, touch, text, gestures, and vision.",
+        image: "/images/Humane.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Surajjberaa/Humane-Clone",
+        previewUrl: "https://humane-clone.vercel.app/"
+    },
+    {
+        id: 6,
+        title: "Medium Blogging Website",
+        description: "A clean and user-friendly blogging platform inspired by Medium, designed for seamless reading and writing experiences. Built with responsive design and optimized for content creators.",
+        image: "/images/medium.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Surajjberaa/Medium-Blogging-app",
+        previewUrl: "https://medium-blogging-app.vercel.app/blogs"
+    },
+
 ]
 
 function ProjectSection() {
   return (
-    <div >
+    <div id='projects'>
         <h2 className='text-4xl text-center mb-5 font-semibold'>My Projects</h2>
 
         <div className='md:grid-cols-3 grid gap-3'>{projectsData.map((project) => <ProjectCard 
