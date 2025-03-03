@@ -13,12 +13,12 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Music School Website",
-        description: "Music school website with smooth animations, showcasing courses, instructors, and programs in a user-friendly design.",
-        image: "/images/Music.png",
+        title: "Planets",
+        description: "Experience an interactive 3D solar system with realistic planet textures, smooth animations, and seamless scrolling, creating an immersive and engaging space exploration journey.",
+        image: "/images/Planets.png",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/Surajjberaa/Music-school",
-        previewUrl: "https://music-school-ashen.vercel.app/"
+        gitUrl: "https://github.com/Surajjberaa/Planets",
+        previewUrl: "https://planets-seven-psi.vercel.app/"
     },
     {
         id: 3,
@@ -49,6 +49,15 @@ const projectsData = [
     },
     {
         id: 6,
+        title: "Music School Website",
+        description: "Music school website with smooth animations, showcasing courses, instructors, and programs in a user-friendly design.",
+        image: "/images/Music.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Surajjberaa/Music-school",
+        previewUrl: "https://music-school-ashen.vercel.app/"
+    },
+    {
+        id: 7,
         title: "Medium Blogging Website",
         description: "A clean and user-friendly blogging platform inspired by Medium, designed for seamless reading and writing experiences. Built with responsive design and optimized for content creators.",
         image: "/images/medium.png",

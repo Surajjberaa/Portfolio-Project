@@ -27,6 +27,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>FreeCodeCamp</li>
                 <li>100xDevs</li>
+                <li>Sheryians Coding School</li>
                 <li>University of Calcutta</li>
             </ul>
         )
