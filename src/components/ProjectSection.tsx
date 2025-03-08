@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import { Particles } from './magicui/particles'
 
 const projectsData = [
     {
@@ -70,7 +71,15 @@ const projectsData = [
 
 function ProjectSection() {
   return (
-    <div id='projects'>
+      <div id='projects ' className=' relative'>
+                 {/* <Particles
+        className="absolute inset-0 z-0"
+        quantity={100}
+        ease={80}
+        color={"#ffffff"}  
+        refresh
+      /> */}
+
         <h2 className='text-4xl text-center mb-5 font-semibold'>My Projects</h2>
 
         <div className='md:grid-cols-3 grid gap-3'>{projectsData.map((project) => <ProjectCard 

@@ -85,7 +85,9 @@ export function AnimatedGridPattern({
         setDimensions({
           width: entry.contentRect.width,
           height: entry.contentRect.height,
+          
         });
+        console.log(entry.contentRect.width, entry.contentRect.height)
       }
     });
 
