@@ -39,7 +39,7 @@ function Navbar() {
     }, [prevScrollPos])
  
     return ( 
-        <nav className={`fixed mx-auto border-[#33353F] top-0 left-0 right-0 z-10 p-2 bg-[#121212] bg-opacity-90 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
+        <nav className={`fixed mx-auto border-[#33353F] ${navBarOpen ? 'h-screen ' : ''} top-0 left-0 right-0 z-50 p-2 bg-[#121212] bg-opacity-90 transition-transform duration-300 ${visible ? 'translate-y-0 ' : '-translate-y-full '}`}>
             <div className='flex items-center justify-between mx-auto py-3 sm:px-8 px-2 mb-4  rounded-full '>
                 <Link href={'/'}
                 className='text-2xl md:text-4xl font-semibold'
@@ -89,8 +89,8 @@ function Navbar() {
                         )
                     }
                 </div>
-                <div className='menu hidden md:block md:w-auto ' id='navbar'>
-                    <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8'>
+                <div className={`menu hidden md:block md:w-auto`} id='navbar'>
+                    <ul className={`flex p-4 md:p-0 md:flex-row md:space-x-8 md:items-center md:justify-end`}>
                             {
                                 navLinks.map((link, index) => (
                                     <li key={index}>
@@ -101,7 +101,7 @@ function Navbar() {
                                                 const element = document.querySelector(link.path);
                                                 element?.scrollIntoView({ behavior: 'smooth' });
                                             }}
-                                            className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+                                            className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl text-5xl rounded md:p-0 hover:text-white"
                                         >
                                             {link.title}
                                         </a>

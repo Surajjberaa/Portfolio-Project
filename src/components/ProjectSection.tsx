@@ -71,7 +71,7 @@ const projectsData = [
 
 function ProjectSection() {
   return (
-      <div id='projects ' className=' relative'>
+      <div id='projects' className=' relative'>
                  {/* <Particles
         className="absolute inset-0 z-0"
         quantity={100}
