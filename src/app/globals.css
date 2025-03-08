@@ -67,3 +67,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media (min-width: 1400px) {
+  .container {
+      max-width: 2500px;
+  }
+}
