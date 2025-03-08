@@ -13,7 +13,7 @@ export default function CursorFollower() {
     setIsTouchDevice(typeof window !== "undefined" && "ontouchstart" in window);
   }, []);
 
-  console.log(isTouchDevice)
+  // console.log(isTouchDevice)
 
   useEffect(() => {
     if (isTouchDevice || !cursorRef.current) return;
