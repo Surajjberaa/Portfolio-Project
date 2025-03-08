@@ -46,5 +46,5 @@ export default function CursorFollower() {
     };
   }, []);
 
-  return <div ref={cursorRef} className="cursor "/>;
+  return <div ref={cursorRef} className="cursor hidden md:block  "/>;
 }
