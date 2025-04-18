@@ -12,8 +12,8 @@ function HeroSection() {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/cv/resume.pdf'; // Path to your CV file in the public directory
-    link.download = 'resume.pdf'; // Name of the file that will be downloaded
+    link.href = '/cv/resume.pdf'
+    link.download = 'resume.pdf'
     link.click();
   };
 
