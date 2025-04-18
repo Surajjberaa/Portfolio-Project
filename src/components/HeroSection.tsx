@@ -9,6 +9,14 @@ import { ShimmerButton } from './magicui/shimmer-button';
 
 
 function HeroSection() {
+
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/cv/resume.pdf'; // Path to your CV file in the public directory
+    link.download = 'resume.pdf'; // Name of the file that will be downloaded
+    link.click();
+  };
+
   return (
     <section>
         <div className='grid grid-cols-1 sm:grid-cols-12 mt-20'>
@@ -49,7 +57,7 @@ function HeroSection() {
                   <button className='px-6 py-3 m-2 rounded-full font-semibold w-full sm:w-fit bg-gradient-to-br from-blue-500 to-black hover:bg-gradient-to-br hover:from-blue-800 text-white'>Hire Me</button>
                   </Link>
                   {/* <button className='px-6 py-3 m-1 rounded-full bg-transparent border-2 border-white hover:bg-[#181818] hover:text-white font-semibold w-full sm:w-fit'>Download CV</button> */}
-                  <ShimmerButton className=' m-2 rounded-full font-semibold   hover:bg-gradient-to-br hover:from-blue-900 text-white' background='#121212'>Download CV</ShimmerButton>
+                  <ShimmerButton className=' m-2 rounded-full font-semibold   hover:bg-gradient-to-br hover:from-blue-900 text-white' background='#121212' onClick={downloadCV}>Download CV</ShimmerButton>
                 </div>
             </div>
             <div className='col-span-5 sm:block hidden place-self-center mt-4 lg:mt-0'>

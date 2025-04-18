@@ -5,6 +5,15 @@ import { Particles } from './magicui/particles'
 const projectsData = [
     {
         id: 1,
+        title: "LUXE",
+        description: "A cinematic 3D car studio built with React and Three.js, featuring smooth animations, interactive lighting, and precise visual storytelling.",
+        image: "/images/Luxe.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Surajjberaa/Luxe",
+        previewUrl: "https://luxe-liard.vercel.app/"
+    },
+    {
+        id: 2,
         title: "E-Commerce Website",
         description: "An elegant e-commerce site with smooth animations, showcasing sustainable products with a clean layout and intuitive navigation with paypal payment integration.",
         image: "/images/Ecom.png",
@@ -13,16 +22,16 @@ const projectsData = [
         previewUrl: "https://e-commerce-xi-pearl.vercel.app/"
     },
     {
-        id: 2,
+        id: 3,
         title: "Zajno",
-        description: "Developed a high-fidelity clone of the Zajno website, implementing GSAP-powered animations, interactive UI elements, and a sleek, futuristic aesthetic. Focused on smooth page transitions, Three JS effects, and performance-optimized layout to enhance user engagement",
+        description: "Developed a high-fidelity clone of the Zajno website, implementing GSAP-powered animations, interactive UI elements, and a sleek, futuristic aesthetic.",
         image: "/images/Zajno.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Surajjberaa/zajno",
         previewUrl: "https://zajno-black.vercel.app/"
     },
     {
-        id: 3,
+        id: 4,
         title: "Planets",
         description: "Experience an interactive 3D solar system with realistic planet textures, smooth animations, and seamless scrolling, creating an immersive and engaging space exploration journey.",
         image: "/images/Planets.png",
@@ -31,7 +40,7 @@ const projectsData = [
         previewUrl: "https://planets-seven-psi.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Portfolio Website",
         description: "A personal portfolio showcasing my journey in web development, featuring projects, skills, and ongoing learning. Built to highlight my passion for technology and hands-on experience.",
         image: "/images/portfolio.png",
@@ -40,7 +49,7 @@ const projectsData = [
         previewUrl: "https://portfolio-project-surajs-projects-0f14f766.vercel.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Two Good Co Website",
         description: "An elegant e-commerce site with smooth animations, showcasing sustainable products with a clean layout and intuitive navigation.",
         image: "/images/Two-good.png",
@@ -49,7 +58,7 @@ const projectsData = [
         previewUrl: "https://surajjberaa.github.io/Two-Good-Co/"
     },
     {
-        id: 6,
+        id: 7,
         title: "Humane",
         description: "Humane's CosmOS is an AI-powered OS with intelligent agents, enabling seamless, context-aware interactions through voice, touch, text, gestures, and vision.",
         image: "/images/Humane.png",
@@ -58,7 +67,7 @@ const projectsData = [
         previewUrl: "https://humane-clone.vercel.app/"
     },
     {
-        id: 7,
+        id: 8,
         title: "Music School Website",
         description: "Music school website with smooth animations, showcasing courses, instructors, and programs in a user-friendly design.",
         image: "/images/Music.png",
@@ -67,7 +76,7 @@ const projectsData = [
         previewUrl: "https://music-school-ashen.vercel.app/"
     },
     {
-        id: 8,
+        id: 9,
         title: "Medium Blogging Website",
         description: "A clean and user-friendly blogging platform inspired by Medium, designed for seamless reading and writing experiences. Built with responsive design and optimized for content creators.",
         image: "/images/medium.png",
