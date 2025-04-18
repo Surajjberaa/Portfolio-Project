@@ -5,7 +5,7 @@ import Link from 'next/link'
 const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}: any) =>{
   return (
     <div> 
-        <div className='h-32 w-full md:h-52 relative rounded-t-xl group m-0'
+        <div className='h-32 w-full md:h-64 relative rounded-t-xl group m-0'
         style={{background: `url(${imgUrl})`, backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}
         >
             <div className='overlay items-center justify-center absolute top-0 left-0 h-full w-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-60 transition-all duration-600'>
