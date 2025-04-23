@@ -81,7 +81,7 @@ function AboutSection() {
             <div  className='mt-4 md:mt-0 text-left flex flex-col h-full z-20'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About me</h2>
                 <p className='text-base md:text-lg  text-[#ADB7BE]'>Hi, I'm Suraj — a web developer passionate about crafting modern and interactive web experiences.
-                I’ve built projects like a 3D car studio and dynamic websites using React and Three.js. I’m always learning new technologies and expanding my full-stack skills to create better, faster, and more engaging digital solutions.</p>
+                I’ve built projects like a 3D car studio and dynamic websites using React, Three.js, and am expanding my full-stack knowledge to build complete, scalable solutions. Always learning and experimenting with new technologies, I’m focused on improving my skills and creating better, more engaging digital products.</p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 
                     selectTab={()=> handleTabChange("skills")}
